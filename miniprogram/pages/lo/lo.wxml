@@ -1,0 +1,24 @@
+<!--pages/lo/lo.wxml-->
+<view>
+
+
+<view class="register_type">
+  <view class="phone_register {{registerParam?'selected':'unselected'}}" bindtap="phoneRegister">学生登录</view>
+  <view class="email_register {{registerParam?'unselected':'selected'}}" bindtap="emailRegister">职工登录</view>
+</view>
+
+<view>
+		<form>
+			<view class="stu_number input_view {{focusStuNumber?'focus':'blur'}}">
+				<input type="number" placeholder="请输入学号" bindfocus="focusStuNumber" bindblur="blurStuNumber"></input>
+			</view>
+
+			<view class="password input_view {{focusPassword?'focus':'blur'}}">
+				<input type="text" name="password" placeholder="请输入密码" bindfocus="focusPassword" bindblur="blurPassword"></input>
+			</view>
+
+			<button class="submit" form-type="submit" bindtap="submit">登录</button>
+		</form>
+	</view>
+
+</view>

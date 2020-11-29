@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="context">
+  <view class="box" bindtap='getJavaDetail'>
+    <image class='img' src='/images/nan.jpg'></image>
+      <navigator url="/pages/comment/comment" hover-class="navigator-hover">楠院食堂</navigator> 
+  </view>
+
+  <view class="box" bindtap='getJavaDetail'>
+    <image class='img' src='/images/zi.jpg'></image>
+      <navigator url="/pages/comment/comment" hover-class="navigator-hover">梓院食堂</navigator> 
+  </view>
+
+  <view class="box" bindtap='getJavaDetail'>
+    <image class='img' src='/images/nan.jpg'></image>
+      <navigator url="/pages/comment/comment" hover-class="navigator-hover">蜜雪冰城</navigator> 
+  </view>
+
+  <view class="box" bindtap='getJavaDetail'>
+    <image class='img' src='/images/zi.jpg'></image>
+      <navigator url="/pages/comment/comment" hover-class="navigator-hover">轻松一刻</navigator> 
+  </view>
+
+</view>
+
+
+
+

@@ -1,0 +1,24 @@
+/* pages/host/host.wxss */
+.context{
+
+  width: 100%;
+  height: 100px;
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  flex-direction:row;
+  justify-content:flex-start;
+  flex-wrap:nowrap;
+  margin-bottom:40px; 
+  
+}
+
+.box{
+  width: 750rpx;
+  height: 50px;
+  border-color:blue;
+  background-color:#E0FFFF;
+}
+.img{
+  width: 100%;
+  height: 150px;
+}

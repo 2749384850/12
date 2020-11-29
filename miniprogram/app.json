@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/host/host",
+    "pages/lo/lo",
+    "pages/login/login",
+    "pages/detail/detail",
+    "pages/index/index",
+    "pages/practice/practice",
+    "pages/comment/comment"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

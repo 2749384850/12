@@ -1,0 +1,20 @@
+<!--pages/host/host.wxml-->
+<view class="context">
+<view style="flex-direction:column;">
+    <image  class='img'></image>
+  
+  <form>
+
+    <navigator class="box" url="/pages/lo/lo" hover-class="navigator-hover">
+      <button class="box">
+       <text>登录</text>
+     </button>
+    </navigator> 
+    <navigator class="box" url="/pages/login/login" hover-class="navigator-hover">
+      <button class="box">
+       <text>注册</text>
+     </button>
+    </navigator> 
+  </form>>
+</view>
+</view>

@@ -1,0 +1,31 @@
+<!--pages/login/login.wxml-->
+<view>
+
+
+	<view class="register_type">
+		<view class="phone_register {{registerParam?'selected':'unselected'}}" bindtap="phoneRegister">学生注册</view>
+		<view class="email_register {{registerParam?'unselected':'selected'}}" bindtap="emailRegister">职工注册</view>
+	</view>
+
+	<view>
+		<form>
+			<view class="stu_number input_view {{focusStuNumber?'focus':'blur'}}">
+				<input type="number" placeholder="请输入学号" bindfocus="focusStuNumber" bindblur="blurStuNumber"></input>
+			</view>
+
+			<view class="username input_view {{focusUserName?'focus':'blur'}}">
+				<input placeholder="请输入用户名" bindfocus="focusUserName" bindblur="blurUserName"></input>
+			</view>
+
+			<view class="password input_view {{focusPassword?'focus':'blur'}}">
+				<input type="password" placeholder="请输入密码" bindfocus="focusPassword" bindblur="blurPassword"></input>
+			</view>
+
+			<view class="repassword input_view {{focusRePassword?'focus':'blur'}}">
+				<input type="password" placeholder="确认密码" bindfocus="focusRePassword" bindblur="blurRePassword"></input>
+			</view>
+			<button class="submit" form-type="submit" bindtap="submit">注册</button>
+		</form>
+	</view>
+
+</view>
